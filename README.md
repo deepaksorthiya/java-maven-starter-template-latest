@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Java Interview Preparation</h1>
+<h1 style="text-align: center;">Java Maven Latest Starter Template</h1>
 
 <p style="text-align: center;">
   <a href="https://github.com/deepaksorthiya/java-maven-starter-template-latest/workflows/maven-build.yml">
@@ -6,14 +6,14 @@
   </a>
 </p>
 <p style="text-align: center;">
-  <a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=774786801&skip_quickstart=true&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json">
+  <a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1052824939&skip_quickstart=true&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json">
     <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"/>
   </a>
 </p>
 
 ---
 
-### ** Java Maven Starter Template **
+### ** Java Maven Latest Starter Template **
 
 ---
 
