@@ -8,17 +8,19 @@
     <packaging>jar</packaging>
 
     <name>java-maven-starter-template-latest</name>
+    <description>Java Maven Latest Starter Template With Junit and Mockito</description>
     <url>https://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>24</java.version>
+        <java.version>25</java.version>
         <maven.surefire.plugin>3.5.4</maven.surefire.plugin>
         <maven.compiler.plugin>3.14.1</maven.compiler.plugin>
         <maven.source.plugin>3.3.1</maven.source.plugin>
         <junit-bom.version>6.0.0</junit-bom.version>
         <logback.version>1.5.19</logback.version>
+        <mockito-bom.version>5.20.0</mockito-bom.version>
     </properties>
 
     <dependencyManagement>
@@ -27,6 +29,13 @@
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
                 <version>${junit-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-bom</artifactId>
+                <version>${mockito-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -43,6 +52,17 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- Mockito and Junit 5 -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
             <scope>test</scope>
         </dependency>
 

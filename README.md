@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Java Maven Latest Starter Template</h1>
+<h1 style="text-align: center;">Java Maven Latest Starter Template With Junit and Mockito</h1>
 
 <p style="text-align: center;">
   <a href="https://github.com/deepaksorthiya/java-maven-starter-template-latest/workflows/maven-build.yml">
@@ -13,7 +13,7 @@
 
 ---
 
-### ** Java Maven Latest Starter Template **
+### ** Java Maven Latest Starter Template With Junit and Mockito **
 
 ---
 
@@ -23,7 +23,7 @@
 
 ```
 Maven: 3.9+
-JDK: 24
+JDK: 25
 ```
 
 ### Clone this repository:
