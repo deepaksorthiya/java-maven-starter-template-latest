@@ -1,7 +1,6 @@
 <h1 style="text-align: center;">Java Maven Latest Starter Template With Junit and Mockito</h1>
-
 <p style="text-align: center;">
-  <a href="https://github.com/deepaksorthiya/java-maven-starter-template-latest/workflows/maven-build.yml">
+  <a href="https://github.com/deepaksorthiya/java-maven-starter-template-latest/actions/workflows/maven-build.yml">
     <img src="https://github.com/deepaksorthiya/java-maven-starter-template-latest/actions/workflows/maven-build.yml/badge.svg" alt="Build Status"/>
   </a>
 </p>
