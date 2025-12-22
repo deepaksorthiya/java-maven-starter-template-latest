@@ -21,8 +21,9 @@
 ## Requirements:
 
 ```
-Maven: 3.9+
 JDK: 25
+Maven: 3.9+
+JUnit: 6+
 ```
 
 ### Clone this repository:
