@@ -21,6 +21,7 @@
         <junit-bom.version>6.1.1</junit-bom.version>
         <logback.version>1.5.37</logback.version>
         <mockito-bom.version>5.23.0</mockito-bom.version>
+        <assertj-bom.version>3.27.7</assertj-bom.version>
     </properties>
 
     <dependencyManagement>
@@ -36,6 +37,13 @@
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-bom</artifactId>
                 <version>${mockito-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-bom</artifactId>
+                <version>${assertj-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -63,6 +71,11 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
             <scope>test</scope>
         </dependency>
 
